@@ -1,4 +1,220 @@
-<html> 
-    <h1>hrllo</h1>
-    <h1>hrllo</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness lover classes</title>
+    <!-- <link rel="" href="">  -->
+    <!--if you want other fonts so fill here link-->
+    <link rel="stylesheet" href="css/style.css">
+     <style>
+        /* css  reset */
+         body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: opx;
+            padding: opx;
+            background: url('img/bg.jpg.jpg');
+            height: 450px;
+        } 
+
+         .left {
+            position: absolute;
+            left: 14px;
+            top: 9px;
+
+            /* border: 3px solid rgb(248, 22, 22); */
+            display: inline-block;
+
+        } 
+
+         .mid {
+
+            display: block;
+             width: 45%; 
+            margin: -5px auto;
+
+            /* border: 2px solid #6b2903; */
+            /* display: inline;if you want that jitna long word ho utna hi uski border so follow this */
+        } 
+
+        .right {
+
+            position: absolute;
+
+            /*if uh want that jo name diya hai uske hisab se iski position ho so follow this method*/
+            right: 3px;
+            top: 10px;
+
+
+            /* border: 1px solid rgb(119, 51, 6); */
+            display: inline-block;
+            /*if you want that sabhi element ek hi line me ho so follow this method*/
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+
+            display: inline-block;
+            /*if you want that sabhi element ek line me ho so follow this method*/
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            /* if you want that no UNDERLINE in element so this method help you */
+            padding: 16px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+
+            text-decoration: underline;
+            color: rgb(28, 1, 1);
+
+        }
+
+        .left img {
+            width: 99px;
+
+        }
+
+        .left div {
+            text-align: center;
+            /*If you want that LOGO ke niche ka name center me aaye so ye follow kare*/
+        }
+
+
+        .btn {
+            color: white;
+            margin: 0px 10px;
+            background-color: rgb(38, 53, 2);
+            padding: 4px 20px;
+            border: 1px solid rgb(238, 255, 50);
+            border-radius: 10px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: rgb(220, 249, 141);
+            color:black;
+            border-color: black;
+
+        }
+
+        .container {
+            width: 45%;
+            border: 1px solid #8a0606;
+            margin: 50px 20px;
+            padding: 7px 31px;
+            border-radius: 42px;
+        }
+
+        .form-group input {
+            text-align: center;
+            margin: 6px auto;
+            display: block;
+            width: 65%;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 20px;
+
+        }
+
+        .container h1 {
+            text-align: center;
+            display: block;
+        }
+
+        .container button {
+            display: block;
+            width: 31%;
+            margin: 11px auto;
+        }
+    </style> 
+
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/gym.png.png" alt="">
+            <div><b>Fitness Club</b></div>
+
+
+        </div>
+
+        <!-- mid box for navbar(navigaton) -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <!--second layer for making attracetive website-->
+                <li><a href="#" class="active">Home </a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Contact</button>
+            <button class="btn">Email us</button>
+        </div>
+
+    </header>
+
+
+    <div class="container">
+        <h1>
+            Join the best classes of Nalkheda now
+            <form action="no action.php">
+                <div class="form-group">
+                    <!--div.form-group press-->
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <!--div.form-group press-->
+                    <input type="text" name="" placeholder="father's name">
+                </div>
+
+
+                <div class="form-group">
+                    <!--div.form-group press-->
+                    <input type="text" name="" placeholder="at present address">
+                </div>
+
+                <div class="form-group">
+                    <!--div.form-group press-->
+                    <input type="text" name="" placeholder="mobile number">
+                </div>
+
+
+                <div class="form-group">
+                    <!--div.form-group press-->
+                    <input type="text" name="" placeholder="first">
+                </div>
+
+
+                <div class="form-group">
+                    <!--div.form-group press-->
+                    <input type="text" name="" placeholder="time period">
+                </div>
+
+                <button class="btn">Submit</button>
+            </form>
+        </h1>
+    </div>
+</body>
+
 </html>
